@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="91353" started-at="2019-07-25T15:25:50Z" finished-at="2019-07-25T15:27:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="91353" started-at="2019-07-25T15:25:50Z" finished-at="2019-07-25T15:27:21Z">
+      <class name="com.freecrm.TestCases.LoginTestCase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.freecrm.TestCases.LoginTestCase@42e26948]" name="setup" is-config="true" duration-ms="68597" started-at="2019-07-25T15:25:50Z" finished-at="2019-07-25T15:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginCase()[pri:0, instance:com.freecrm.TestCases.LoginTestCase@42e26948]" name="LoginCase" duration-ms="1008" started-at="2019-07-25T15:26:59Z" finished-at="2019-07-25T15:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freecrm.TestCases.LoginTestCase@42e26948]" name="tearDown" is-config="true" duration-ms="352" started-at="2019-07-25T15:27:00Z" finished-at="2019-07-25T15:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.freecrm.TestCases.LoginTestCase@42e26948]" name="setup" is-config="true" duration-ms="20850" started-at="2019-07-25T15:27:00Z" finished-at="2019-07-25T15:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckHomePage()[pri:0, instance:com.freecrm.TestCases.LoginTestCase@42e26948]" name="CheckHomePage" duration-ms="33" started-at="2019-07-25T15:27:21Z" depends-on-methods="com.freecrm.TestCases.LoginTestCase.LoginCase" finished-at="2019-07-25T15:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freecrm.TestCases.LoginTestCase@42e26948]" name="tearDown" is-config="true" duration-ms="386" started-at="2019-07-25T15:27:21Z" finished-at="2019-07-25T15:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.freecrm.TestCases.LoginTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
